@@ -2,50 +2,26 @@
 layout: default
 ---
 
-<article>
-    <header class="post-header">
-        <h1>{{ page.title }}</h1>
-        {% if page.date %}
-        <div class="post-meta">
-            Published - {{ page.date | date: "%Y-%m-%d" }} | {{ content | reading_time }}min read
-        </div>
-        {% endif %}
-    </header>
-    
-    {% if page.navigation %}
-    <div class="nav-indicator">
-        {% if page.navigation.previous %}
-        <a href="{{ page.navigation.previous }}" class="nav-btn">← Previous</a>
-        {% endif %}
-        {% if page.navigation.next %}
-        <a href="{{ page.navigation.next }}" class="nav-btn">Next →</a>
-        {% endif %}
+<article class="post">
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <div class="post-meta">
+      {{ page.date | date: "%B %d, %Y" }} • {{ content | reading_time }}
     </div>
-    {% endif %}
-    
-    <div class="post-content">
-        {{ content }}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.tags.size > 0 %}
+    <div class="tags">
+      <h3>Tags</h3>
+      <div class="tag-list">
+        {% for tag in page.tags %}
+          <a href="{{ '/tags#' | append: tag | relative_url }}" class="tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
     </div>
-    
-    {% if page.tags %}
-    <div class="post-tags">
-        <h3>Tags</h3>
-        <ul class="tag-list">
-            {% for tag in page.tags %}
-            <li><a href="{{ '/tags/' | append: tag | slugify | relative_url }}">#{{ tag }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
-    {% endif %}
-    
-    {% if page.navigation %}
-    <div class="nav-indicator">
-        {% if page.navigation.previous %}
-        <a href="{{ page.navigation.previous }}" class="nav-btn">← Previous</a>
-        {% endif %}
-        {% if page.navigation.next %}
-        <a href="{{ page.navigation.next }}" class="nav-btn">Next →</a>
-        {% endif %}
-    </div>
-    {% endif %}
+  {% endif %}
 </article>
