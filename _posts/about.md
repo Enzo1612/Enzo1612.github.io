@@ -1,5 +1,7 @@
-# 👋 About Me
-
+---
+layout: default
+title: About me
+---
 Hey there! I'm Enzo, a 22-year-old Computer Science student from France. My passion lies at the intersection of AI and security, and I'm on a mission to become an AI Security Engineer.
 
 I'm currently pursuing a Master's degree in AI, constantly diving into new concepts and practical applications. Outside of my studies, you'll often find me deep in Capture The Flag (CTF) challenges and working through Certified Penetration Testing Specialist (CPTS) labs to sharpen my cybersecurity skills.
