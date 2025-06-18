@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "OverTheWire Bandit: Your First Steps into CTFs"
+layout: default
+title:  "OverTheWire Bandit Intro"
 date:   2025-06-18 10:00:00 +0200
-categories: ctf walkthrough overthewire bandit intro
+categories: bandit
 ---
 
 Welcome to the start of your CTF journey with **OverTheWire Bandit**! This series is designed to gently introduce you to the fundamental concepts of Capture The Flag (CTF) challenges, focusing on command-line basics, file system navigation, and common Linux utilities.
@@ -25,11 +25,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 Bandit Level Walkthroughs
 
 Click on each level below to access its detailed walkthrough:
-
-    [Bandit Level 0](/bandit/level0)
-    Bandit Level 1 Walkthrough
-    Bandit Level 2 Walkthrough
-    ... (add more links as you complete levels)
+[Bandit Level 0](/bandit/level0)
 
 Happy hacking!
 
