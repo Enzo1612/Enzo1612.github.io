@@ -2,7 +2,6 @@
 layout: default
 title: "Starting My AI Security Journey"
 date: 2025-06-17
-categories: learning
 tags: [cybersecurity, AI, hacking]
 ---
 
