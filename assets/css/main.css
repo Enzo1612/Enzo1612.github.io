@@ -37,6 +37,27 @@ a:hover {
 header, footer {
   padding: 1rem 0;
   border-bottom: 1px solid var(--mantle);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+
+header a, footer a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #cdd6f4;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+footer {
+  font-size: 0.9rem;
+  color: #a6adc8;
 }
 
 pre {
