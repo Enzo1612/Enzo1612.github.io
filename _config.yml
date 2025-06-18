@@ -4,10 +4,17 @@ baseurl: ""
 url: "https://Enzo1612.github.io"
 theme: null
 markdown: kramdown
+
+# Add these lines for proper CSS handling
+sass:
+  sass_dir: _sass
+  style: compressed
+
 collections:
   bandit:
     output: true
     permalink: /bandit/:name
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -17,4 +24,3 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-
