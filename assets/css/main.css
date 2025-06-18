@@ -14,16 +14,17 @@ body {
   font-family: 'Fira Code', monospace;
   margin: 0;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 main {
   max-width: 700px;
-  margin: 0 auto;
   padding: 2rem;
   line-height: 1.75;
-  text-align: left; /* optional: use 'center' if you want everything dead-centered */
+  text-align: center;
+  width: 100%;
 }
-
 
 a {
   color: var(--accent);
@@ -35,17 +36,9 @@ a:hover {
 }
 
 header, footer {
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--mantle);
   text-align: center;
   padding: 1rem 0;
-}
-
-
-header a, footer a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #cdd6f4;
+  border-bottom: 1px solid var(--mantle);
 }
 
 header nav {
@@ -55,13 +48,22 @@ header nav {
   gap: 1rem;
 }
 
-footer {
-  font-size: 0.9rem;
-  color: #a6adc8;
+header a, footer a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--text);
 }
 
+footer {
+  font-size: 0.9rem;
+  color: var(--subtext);
+  border-top: 1px solid var(--mantle);
+  margin-top: 2rem;
+}
+
+/* Code block (multiline) */
 pre {
-  background-color: #313244; /* subtle Catppuccin base tone */
+  background-color: #313244;
   color: #cdd6f4;
   padding: 1rem;
   overflow-x: auto;
@@ -70,34 +72,43 @@ pre {
   line-height: 1.5;
   margin: 1.5rem 0;
   font-family: 'Fira Code', monospace;
-  box-shadow: 0 0 0.5rem rgba(0,0,0,0.2);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  text-align: left;
 }
 
+/* Inline code */
 code {
   background-color: #45475a;
-  color: #f5e0dc;
+  color: #f5c2e7;
   padding: 0.2rem 0.4rem;
   border-radius: 0.3rem;
   font-family: 'Fira Code', monospace;
   font-size: 0.95em;
 }
 
-/* inline code shouldn't look like a mini pre block */
-p > code, li > code {
-  font-size: 0.95em;
+/* Inline code in paragraphs/lists */
+p > code,
+li > code {
   background-color: #45475a;
   color: #f5c2e7;
+  font-size: 0.95em;
 }
 
+/* Image centering */
 img {
   display: block;
   margin: 2rem auto;
   max-width: 100%;
 }
 
+/* Centered headers */
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 2rem;
 }
 
+/* Center paragraphs by default */
+p, ul, ol {
+  text-align: center;
+}
 
