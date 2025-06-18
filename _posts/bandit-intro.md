@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  "OverTheWire Bandit Intro"
-date:   2025-06-18 10:00:00 +0200
 categories: bandit
 ---
 
