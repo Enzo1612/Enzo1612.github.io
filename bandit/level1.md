@@ -17,7 +17,7 @@ permalink: /bandit/level0
 ### **Approach**
 
 **Initial Reconnaissance:**
-* Log in to `bandit0` using:*
+*Log in to `bandit0` using:*
 `ssh bandit0@bandit.labs.overthewire.org -p 2220`
 
 **Problem Solving Steps:**
