@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "OverTheWire Bandit Level0 Walkthrough"
 date: 2025-06-25
 categories: ctf walkthrough overthewire bandit

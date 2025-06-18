@@ -21,11 +21,10 @@ The game starts at `bandit.labs.overthewire.org` on port `2220`. Your initial us
 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-
+```
 Bandit Level Walkthroughs
 
-Click on each level below to access its detailed walkthrough:
-[Bandit Level 0](/bandit/level0)
+- [Bandit Level 0](/bandit/level0)
 
 Happy hacking!
 
