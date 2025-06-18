@@ -1,4 +1,4 @@
-# 🚀 Enzo's Cyber-AI Journey Blog
+🚀 Enzo's Cyber-AI Journey Blog
 
 Welcome to my personal blog, where I document my adventures and learnings in the exciting convergence of Cybersecurity and Artificial Intelligence/Machine Learning!
 ## 👋 About Me
