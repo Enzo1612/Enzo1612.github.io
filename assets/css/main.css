@@ -121,3 +121,27 @@ footer {
   }
 }
 
+/* 💠 Stylish Bullet Points */
+ul {
+  list-style: none;
+  padding-left: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li {
+  position: relative;
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+  color: var(--text);
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
