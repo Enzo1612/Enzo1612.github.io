@@ -1,6 +1,16 @@
-title: Enzo's Blog
-
-
-remote_theme: pages-themes/hacker@v0.2.0
+title: "Enzo's Blog"
+description: "Cyberpunk dreams, AI, and a path to elite cybersecurity."
+baseurl: ""
+url: "https://Enzo1612.github.io"
+theme: null
+markdown: kramdown
 plugins:
-- jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
