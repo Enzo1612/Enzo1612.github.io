@@ -1,4 +1,23 @@
 <footer>
-  <p>© {{ site.time | date: '%Y' }} Zooo. All rights reserved.</p>
+    <div class="footer-content">
+        <nav>
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/posts' | relative_url }}">Posts</a>
+            <a href="{{ '/tags' | relative_url }}">Tags</a>
+            <a href="{{ '/about' | relative_url }}">About</a>
+            {% if site.social.mastodon %}
+            <a href="{{ site.social.mastodon }}" target="_blank" rel="noopener">Mastodon</a>
+            {% endif %}
+            {% if site.social.bluesky %}
+            <a href="{{ site.social.bluesky }}" target="_blank" rel="noopener">Bluesky</a>
+            {% endif %}
+            {% if site.social.github %}
+            <a href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>
+            {% endif %}
+        </nav>
+        
+        <div class="footer-info">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }} | Built with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a></p>
+        </div>
+    </div>
 </footer>
-
