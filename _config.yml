@@ -4,6 +4,10 @@ baseurl: ""
 url: "https://Enzo1612.github.io"
 theme: null
 markdown: kramdown
+collections:
+  bandit:
+    output: true
+    permalink: /bandit/:name
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
