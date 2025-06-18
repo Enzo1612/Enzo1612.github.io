@@ -12,19 +12,19 @@ This blog is my public notebook, chronicling my progress, insights, challenges, 
 
 Here, I'll be sharing a mix of content, including:
 
-    Cybersecurity Deep Dives: Write-ups from CTFs, lessons learned from CPTS modules, explorations of security vulnerabilities, and defensive strategies.
-    AI/ML Explorations: Summaries of AI course content, personal projects, machine learning model insights, and the latest trends in the AI landscape.
-    AI Security Focus: My thoughts and findings on securing AI systems, adversarial AI, privacy-preserving AI, and ethical considerations.
-    Learning Resources & Tips: Curated lists of courses, tools, and methodologies that have helped me along the way.
-    Personal Reflections: My journey as a student, the challenges I face, and how I overcome them.
+- Cybersecurity Deep Dives: Write-ups from CTFs, lessons learned from CPTS modules, explorations of security vulnerabilities, and defensive strategies.
+- AI/ML Explorations: Summaries of AI course content, personal projects, machine learning model insights, and the latest trends in the AI landscape.
+- AI Security Focus: My thoughts and findings on securing AI systems, adversarial AI, privacy-preserving AI, and ethical considerations.
+- Learning Resources & Tips: Curated lists of courses, tools, and methodologies that have helped me along the way.
+- Personal Reflections: My journey as a student, the challenges I face, and how I overcome them.
 
 ## 🌱 My Current Focus
 
 My learning path is currently centered on:
 
-    Mastering cybersecurity fundamentals through CPTS training and hands-on CTF challenges.
-    Deepening my understanding of AI/ML algorithms and practical application through my Master's program.
-    Actively researching and experimenting with topics related to AI Security, a field I'm incredibly passionate about.
+- Mastering cybersecurity fundamentals through CPTS training and hands-on CTF challenges.
+- Deepening my understanding of AI/ML algorithms and practical application through my Master's program.
+- Actively researching and experimenting with topics related to AI Security, a field I'm incredibly passionate about.
 
 ## 🤝 Let's Connect!
 
